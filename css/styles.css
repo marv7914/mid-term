@@ -1,0 +1,90 @@
+body{
+    font : normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+    width : 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+} 
+
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    background-color: blue;
+    color : goldenrod;
+    font-size: 2em;
+}
+
+h2{
+    color : rgba(57, 20, 222, 0.4);
+    font-size: 2em;
+}   
+
+main{
+    height: 70vh;
+
+}
+p{
+    color: blueviolet;
+}
+
+/*#images{
+    border: 2px solid rgb(9, 4, 9);
+    width: 90%;
+    height: 80%;
+}*/
+#images1{
+    background-color: hsla(201, 93%, 49%, 0.753);
+    height: 80%;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+} 
+
+#images2{
+    background-color: hsla(201, 93%, 49%, 0.753);
+    height: 80%;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+    float: right;
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+img{
+    border: 2px solid rgb(9, 4, 9);
+    width: 90%;
+    height: 80%;
+}
+
+ul li{
+    list-style-type: square;
+    line-height: 1.5em;
+} 
+
+
+
+a:hover{
+    color:aliceblue;
+}
+
+footer{
+    clear: both;
+    padding: 35px 30px 80px 35px;
+    margin: 10px;
+    background-color: blue;
+} 
+
+footer p{
+    font-size: 1em;
+    color: blanchedalmond;
+}
